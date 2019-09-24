@@ -21,7 +21,6 @@ For tests involving time to run properly, your Postgres database must be configu
     - OS X, Homebrew: `/usr/local/var/postgres/postgresql.conf`
 2. Uncomment the `timezone` line and set it to `UTC` as follows:
 
-```
 # - Locale and Formatting -
 
 datestyle = 'iso, mdy'
